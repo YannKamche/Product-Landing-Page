@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active-link {
+    @apply text-link-color;
+}
+.link {
+    @apply hover:text-link-color transition-colors duration-200 ease-in tracking-wider font-medium;
+}
+.item {
+    @apply relative flex justify-center items-center w-32 h-40;
+}
+.image {
+    @apply relative w-16 cursor-pointer transition-all hover:w-20 duration-200 ease-in;
+}
+.active-image {
+    @apply w-28;
+}
+.color-selector {
+    @apply absolute -top-3 w-5 h-5 rounded-full left-1/2 translate-x-2 border-2 border-solid border-white;
+}
+
+.active-color-selector {
+    @apply w-7 h-7 -top-4 bg-link-color;
+}
+.item-active {
+    @apply w-40;
+}
