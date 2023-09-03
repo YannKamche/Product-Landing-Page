@@ -28,3 +28,10 @@
 .item-active {
     @apply w-40;
 }
+.text-stroke {
+    -webkit-text-stroke-width: 5px;
+    -webkit-text-stroke-color: hsl(300, 76%, 60%); /* Color of the stroke */
+  }
+.skewed-figure {
+    perspective: 300px;
+}
